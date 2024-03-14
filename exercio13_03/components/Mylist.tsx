@@ -8,6 +8,7 @@ const [lembrete, onChangeText] = React.useState('');
 const [listaLembrete, setListaLembrete] = useState<string[]>([]);
 const handlePress = () => {
        setListaLembrete([...listaLembrete, lembrete]);
+       onChangeText("");
 };
     
 
